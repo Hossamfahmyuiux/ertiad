@@ -1,0 +1,25 @@
+/* || ===
+
+= IMKAN.com.sa
+= IMAGES & BG IMAGES
+
+=== || */
+@media screen and #{breakpoint(large)}{
+  .coverSection{
+    background-image: url(../imgs/coverBrand.png) ;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+  }
+}
+.bg-sub-page{
+    background: url(../imgs/section1background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-about-page{
+    background: url(../imgs/section3bg.png) no-repeat;
+    background-size: cover;
+    text-align: right;
+    background-position: bottom;
+}

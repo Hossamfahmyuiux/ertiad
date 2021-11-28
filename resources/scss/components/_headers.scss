@@ -1,0 +1,428 @@
+/* || ===
+
+= IMKAN.com.sa
+= HEADER
+
+=== || */
+
+
+	.section{
+		text-align:center;
+		overflow:hidden;
+	}
+
+.fp-viewing-topPage
+{
+  header
+  {
+    position: absolute;
+    width: 100vw;
+    z-index: 99;
+    bottom: $md-whitespace;
+    top: auto;
+    background: transparent;
+		@media only screen and (min-width: 1440px)
+		{
+			bottom: $lr-whitespace;
+			position: fixed;
+		}
+		span
+		{
+			position: absolute;
+			font-size: 27px;
+			bottom: 0px;
+			color: white;
+			display: none;
+			@media only screen and (max-width: 768px)
+			{
+				display: block;
+			}
+		}
+    ul
+    {
+      margin: $sm-whitespace 0;
+			@media only screen and (max-width: 768px)
+			{
+				display: none;
+				background: #fff;
+				border-radius: 10px;
+				padding: 30px 0;
+			}
+      .section0
+      {
+				color: #fff !important;
+				@media only screen and (max-width: 768px)
+				{
+					color: $c-black !important;
+
+				}
+
+        &:after
+        {
+          display: block;
+        }
+      }
+      li
+      {
+        margin-left: $md-whitespace;
+        margin-right: 0;
+				@media only screen and (max-width: 768px)
+				{
+					display: block;
+					margin: $sm-whitespace 0;
+				}
+        a
+        {
+          position: relative;
+          height: 46px;
+          transition: all 0.2s;
+          color: #b2b6bf;
+					@media only screen and (max-width: 768px)
+					{
+						width: 100%;
+						text-align: center;
+					}
+          &:hover
+          {
+						color: $c-white;
+            &:after
+            {
+              display: block;
+            }
+          }
+          &:after
+          {
+            content: '';
+            height: 2px;
+            width: $sm-whitespace;
+            background: $c-white;
+            margin: auto;
+            display: none;
+            position: absolute;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            transition: all 0.2s;
+          }
+        }
+      }
+    }
+    .my-btn
+    {
+      border: 2px solid $c-white;
+      height: 60px;
+      border-radius: 60px;
+      line-height: 60px;
+      display: block;
+    }
+  }
+}
+
+
+
+
+
+
+
+.fp-viewing-aboutErtyad
+{
+	.flix
+	{
+		.section1
+		{
+			transform: scale(1.6);
+			background: #767d8c;
+		}
+	}
+	header
+	{
+		.section1
+		{
+			color: $c-dgray !important;
+			&:after
+			{
+				display: block;
+			}
+		}
+	}
+}
+
+
+.fp-viewing-Program1
+{
+	.flix
+	{
+		.section2
+		{
+			transform: scale(1.6);
+			background: #767d8c;
+		}
+	}
+	header
+	{
+		.getPrograms
+		{
+			color: $c-dgray !important;
+			&:after
+			{
+				display: block;
+			}
+		}
+	}
+}
+
+.fp-viewing-Program2
+{
+	.flix
+	{
+		span
+		{
+			background: #c8cbd1;
+		}
+		.section3
+		{
+			transform: scale(1.6);
+			background: #767d8c;
+		}
+	}
+	header
+	{
+		.getPrograms
+		{
+			color: $c-dgray !important;
+			&:after
+			{
+				display: block;
+			}
+		}
+	}
+}
+
+.fp-viewing-Program6
+{
+	.flix
+	{
+		span
+		{
+			background: #69c7d0;
+		}
+		.section3
+		{
+			transform: scale(1.6);
+			background: #fff;
+		}
+	}
+	header
+	{
+		.getPrograms
+		{
+			color: $c-dgray !important;
+			&:after
+			{
+				display: block;
+			}
+		}
+	}
+}
+
+.fp-viewing-Program3
+{
+	.flix
+	{
+		.section4
+		{
+			transform: scale(1.6);
+			background: #767d8c;
+		}
+	}
+	header
+	{
+		.getPrograms
+		{
+			color: $c-dgray !important;
+			&:after
+			{
+				display: block;
+			}
+		}
+	}
+}
+
+.fp-viewing-contactErtyad
+{
+	.flix
+	{
+		.section5
+		{
+			transform: scale(1.6);
+			background: #767d8c;
+		}
+	}
+	header
+	{
+		.section5
+		{
+			color: $c-dgray !important;
+			&:after
+			{
+				display: block;
+			}
+		}
+	}
+}
+
+
+.fp-viewing-aboutErtyad,
+.fp-viewing-Program1,
+.fp-viewing-Program2,
+.fp-viewing-Program3,
+.fp-viewing-contactErtyad
+{
+
+  header
+  {
+    position: absolute;
+    width: 100vw;
+    z-index: 999;
+    top: 0;
+    bottom: auto;
+    background: $c-white;
+		box-shadow: 0px 0px 25px 0px rgba(35, 39, 48, 0.1);
+		@media only screen and (max-width: 768px)
+		{
+			position: fixed;
+			width: 100px;
+			height: 100px;
+			border-radius: 0 0 0 30px;
+		}
+    nav
+    {
+      height: 100px;
+			text-align: center;
+			span
+			{
+				position: absolute;
+    		font-size: 27px;
+    		bottom: 25px;
+				right: 30px;
+				display: none;
+				color: $c-dgray;
+				@media only screen and (max-width: 768px)
+				{
+					display: block;
+				}
+			}
+    }
+    ul
+    {
+      margin: 0;
+			@media only screen and (max-width: 768px)
+			{
+				width: 90vw;
+				display: none;
+				background: #fff;
+    		border-radius: 10px;
+    		margin-top: 120px;
+				padding: $sm-whitespace 0;
+				box-shadow: 0px 0px 25px 0px rgba(35, 39, 48, 0.1);
+			}
+      .active
+      {
+        color: $c-dgray;
+        &:after
+        {
+          display: block;
+        }
+      }
+      li
+      {
+        margin-left: $md-whitespace;
+        margin-right: $md-whitespace;
+				@media only screen and (max-width: 768px)
+				{
+					display: block;
+				}
+        a
+        {
+          position: relative;
+          height: 100px;
+          line-height: 100px;
+          transition: all 0.2s;
+          color: $c-mgray;
+					@media only screen and (max-width: 768px)
+					{
+						height: 60px;
+						line-height: 60px;
+					}
+          &:hover
+          {
+            &:after
+            {
+              display: block;
+            }
+          }
+          &:after
+          {
+            content: '';
+            height: 2px;
+            width: $sm-whitespace;
+            background: $c-dgray;
+            margin: auto;
+            display: none;
+            position: absolute;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            transition: all 0.2s;
+          }
+        }
+      }
+    }
+    .my-btn
+    {
+      border: 1px solid $c-white;
+      height: 60px;
+      border-radius: 60px;
+      line-height: 60px;
+      display: none;
+    }
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.open-close
+{
+	display: block !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// end

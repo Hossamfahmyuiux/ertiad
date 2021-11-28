@@ -1,0 +1,70 @@
+/* || ===
+
+= IMKAN.com.sa
+= MODALS
+
+=== || */
+.popup-sub{
+  background: rgba(34,30,31,0.9);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: -200vh;
+  @include transition(0.5s);
+  &.active{
+    top: 0;
+  }
+  overflow-y: scroll;
+  z-index: 9999;
+  padding: 15px;
+
+  &.color-1{
+    .form-header{
+      background: $c-brand;
+    }
+  }
+  &.color-2{
+    .form-header{
+      background: #faac18;
+    }
+  }
+  @media screen and #{breakpoint(large)}{
+    padding: 60px;
+  }
+  .abs{
+    font-family: $en-font;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    &.down{
+      top: 24px;
+      left: 40px;
+    }
+  }
+  .close{
+    width: 24px;
+    height: auto;
+    float: right;
+  }
+  .form-header{
+    padding: 30px;
+    @media screen and #{breakpoint(large)}{
+      padding: 60px;
+    }
+    float: right;
+    color: $c-white;
+    font-size: $lr-md-fontsize;
+    width: 100%;
+  }
+  .form-body{
+    padding: 30px;
+    @media screen and #{breakpoint(large)}{
+      padding: 60px;
+    }
+    float: right;
+    width: 100%;
+    background: #fefefe;
+    box-shadow: $l-shadow;
+
+  }
+}

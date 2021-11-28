@@ -1,0 +1,147 @@
+/*
+
+  || === >
+    = IMKAN ENGLISH FILE
+    = Imkan.com.sa
+  || === >
+
+*/
+body {
+  direction: ltr;
+  text-align: left;
+  font-family: 'Gotham' !important; }
+  body * {
+    font-family: 'Gotham' !important; }
+
+[class^="col-"],
+[class*=" col-"] {
+  float: left; }
+
+#section5 {
+  text-align: left; }
+
+.section.order-investment article footer, .bx-left {
+  float: right; }
+
+.bx-right {
+  float: left; }
+
+.txt-right {
+  text-align: left; }
+
+.txt-left {
+  text-align: right; }
+
+.more i {
+  float: right !important;
+  margin-right: 0px !important;
+  margin-left: 15px !important;
+  transform: rotate(180deg); }
+.more.right-icon {
+  float: left !important;
+  margin-right: 15px !important;
+  margin-left: 0px !important;
+  transform: rotate(180deg); }
+
+#top-page .logo {
+  float: left; }
+
+#top-page .main-nav li:before {
+  left: 8px;
+  right: auto; }
+
+#top-page .main-nav {
+  float: right; }
+
+@media (min-width: 992px) {
+  .section.project .icon-bg:before {
+    left: -90px;
+    right: auto; } }
+
+.tabs-list li a {
+  margin: 0 5px; }
+  @media (min-width: 992px) {
+    .tabs-list li a {
+      margin: 0 15px; } }
+
+.tabs-list {
+  float: right; }
+
+.projects-cards article header {
+  right: auto;
+  left: 30px; }
+
+#bottom-page .logo {
+  float: left; }
+
+#bottom-page ul {
+  float: right; }
+
+#bottom-page ul li:last-child a {
+  margin-right: 0; }
+
+.radio-buttons label {
+  float: left;
+  margin: 17px 10px 0 0; }
+
+.select-bg i {
+  right: 45px;
+  left: auto; }
+
+#top-page .menu-toggle {
+  float: right; }
+
+#section2 .height .center article .article {
+  text-align: left;
+  padding-right: 0px;
+  padding-left: 30px; }
+
+#section2 .height .center .company img {
+  margin-right: 0;
+  margin-left: 30px; }
+
+#section3 .height .center h2 {
+  text-align: left;
+  border-left: 10px solid #fff;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-right: 0px; }
+
+#section3 .height .center p {
+  margin-bottom: 50px;
+  text-align: left; }
+
+#section3 .height .center .row .link a {
+  text-align: left;
+  min-height: 155px; }
+
+#section4 .height .middle article {
+  text-align: left; }
+
+#section4 .height .middle figure img {
+  margin-left: 0;
+  margin-right: 30px; }
+
+#section4 .height .middle article .article ul {
+  padding: 0px; }
+
+.combany p {
+  margin-right: 10px; }
+
+#section5 .mapView {
+  left: auto;
+  right: 0; }
+
+#section5 .height .center .row .right-section .second-half {
+  padding-left: 15px;
+  padding-right: 0; }
+
+#section5 .height .center .row .right-section .first-half {
+  padding-right: 15px;
+  padding-left: 0; }
+
+.program-page header .logo {
+  float: left; }
+
+.program-page header ul {
+  float: right; }

@@ -1,0 +1,265 @@
+/*
+  Single page structure
+  IMKAN.COM.SA.
+
+ */
+ .page-about-content {
+   padding: 180px 0 120px;
+   @media only screen and (max-width: 768px)
+   {
+     padding: 120px 15px 30px;
+   }
+
+ }
+
+ .program-page{
+
+    header
+    {
+      position: relative;
+      width: 100vw;
+      z-index: 999;
+      top: 0;
+      bottom: auto;
+      background: $c-white;
+  		box-shadow: 0px 0px 25px 0px rgba(35, 39, 48, 0.1);
+      .logo{
+        background: url(../imgs/logo_dark.png) no-repeat;
+        height: 49px;
+        width: 132px;
+        background-size: 100%;
+        float: right;
+        margin-top: 25px;
+        display: block;
+
+    		@media only screen and (max-width: 768px)
+    		{
+        }
+      }
+  		@media only screen and (max-width: 768px)
+  		{
+  			position: fixed;
+  			height: 100px;
+  			border-radius: 0 0 0 30px;
+  		}
+      nav
+      {
+        height: 100px;
+  			text-align: center;
+  			span
+  			{
+  				position: absolute;
+      		font-size: 27px;
+      		bottom: 25px;
+  				left: 30px;
+  				display: none;
+  				color: $c-dgray;
+  				@media only screen and (max-width: 768px)
+  				{
+  					display: block;
+  				}
+  			}
+      }
+      ul
+      {
+        margin: 0;
+        float: left;
+  			@media only screen and (max-width: 768px)
+  			{
+  				width: 90vw;
+  				display: none;
+  				background: #fff;
+      		border-radius: 10px;
+      		margin-top: 120px;
+  				padding: $sm-whitespace 0;
+  				box-shadow: 0px 0px 25px 0px rgba(35, 39, 48, 0.1);
+  			}
+        .active
+        {
+          color: $c-dgray;
+          &:after
+          {
+            display: block;
+          }
+        }
+        li
+        {
+          margin-left: $md-whitespace;
+          margin-right: $md-whitespace;
+  				@media only screen and (max-width: 768px)
+  				{
+  					display: block;
+  				}
+          a
+          {
+            position: relative;
+            height: 100px;
+            line-height: 100px;
+            transition: all 0.2s;
+            color: $c-mgray;
+  					@media only screen and (max-width: 768px)
+  					{
+  						height: 60px;
+  						line-height: 60px;
+  					}
+            &:hover
+            {
+              &:after
+              {
+                display: block;
+              }
+            }
+            &:after
+            {
+              content: '';
+              height: 2px;
+              width: $sm-whitespace;
+              background: $c-dgray;
+              margin: auto;
+              display: none;
+              position: absolute;
+              right: 0;
+              left: 0;
+              bottom: 0;
+              transition: all 0.2s;
+            }
+          }
+        }
+      }
+      .my-btn
+      {
+        border: 1px solid $c-white;
+        height: 60px;
+        border-radius: 60px;
+        line-height: 60px;
+        display: none;
+      }
+    }
+      #section4 .height .middle article,#section4 .height .middle article .article{
+        width: 100%;
+      }
+      #section4 .height{
+        height: auto;
+        margin-top: 0;
+        display: block;
+        padding: 60px;
+        background: white;
+        margin-top: -90px;
+        box-shadow: 0px 0px 25px 0px rgba(35, 39, 48, 0.05);
+        margin-bottom: 90px;
+        @media only screen and (max-width: 768px)
+        {
+          padding: 30px;
+          margin-top: -30px;
+          margin-bottom: 90px;
+        }
+      }
+      .bg-sub-page{
+        @media only screen and (max-width: 768px){
+          padding: 150px 0 90px !important;
+        }
+      }
+} // end
+
+
+.about-page{
+  .link-div
+  {
+    @media only screen and (max-width: 768px)
+    {
+      width: 100vw;
+    }
+  }
+  .link
+  {
+    a
+    {
+      background: rgba(2, 188, 205, 0.9);
+      padding: $md-whitespace;
+      transition: all 0.2s;
+
+      @media only screen and (max-width: 768px)
+      {
+        padding: $sm-whitespace;
+        margin-top: $sm-whitespace;
+      }
+      @media only screen and (min-width: 1400px)
+      {
+        margin-top: $md-whitespace;
+      }
+      &:hover
+      {
+        transform: scale(1.1);
+      }
+      span
+      {
+        font-size: 32px;
+      }
+    }
+  }
+  .imgs
+  {
+    width: 90%;
+    margin: auto;
+    figure
+    {
+      padding: 30px 0;
+      border-top: 3px solid #b2b6bf;
+      box-shadow: 0px 0px 15px 0px rgba(35, 39, 48, 0.08);
+      transition: all 0.2s;
+      &:hover
+      {
+        border-top: 3px solid #00bccc;
+        transform: scale(1.1);
+      }
+      a
+      {
+        @media only screen and (max-width: 768px)
+        {
+          display: block;
+          padding: 0 $md-whitespace;
+        }
+        img
+        {
+          width: auto;
+          @media only screen and (max-width: 768px)
+          {
+            width: 100%;
+          }
+          //height: auto;
+          //width: 130px;
+        }
+      }
+    }
+  }
+
+  header{
+    @media only screen and (min-width: 768px)
+    {
+    background: transparent;
+    position: absolute;
+    box-shadow: 0 0 0 0;
+    top: 30px;
+    .logo{
+      background-image: url(../imgs/logo.png) ;
+    }
+
+
+
+    ul{
+      a{
+        color: $c-white !important;;
+        opacity: 0.8;
+        &:after{display: none !important;}
+        &:hover,&.active{
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  }
+
+
+
+}
